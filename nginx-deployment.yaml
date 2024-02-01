@@ -18,7 +18,7 @@ spec:
       - name: regcred
       containers:
       - name: mywebapp-k8
-        image: mywebapp-k8:latest
+        image: abrilderosas1814/mywebapp-k8:latest
         ports:
         - containerPort: 80
 
