@@ -19,9 +19,9 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push abrilderosas1814/mywebapp-k8:latest .'
+        sh 'docker push abrilderosas1814/mywebapp-k8:latest'
       }
-    
+    }
     stage('Deploy') {
             steps {
               script {
